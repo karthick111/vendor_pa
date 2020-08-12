@@ -51,7 +51,8 @@ PRODUCT_MAKEFILES += \
     $(LOCAL_DIR)/whyred/pa_whyred.mk \
     $(LOCAL_DIR)/X00TD/pa_X00TD.mk \
     $(LOCAL_DIR)/X01BD/pa_X01BD.mk \
-    $(LOCAL_DIR)/RMX1851/pa_RMX1851.mk
+    $(LOCAL_DIR)/RMX1851/pa_RMX1851.mk \
+    $(LOCAL_DIR)/twolip/pa_twolip.mk
 
 # Lunch targets
 COMMON_LUNCH_CHOICES += \
@@ -90,4 +91,5 @@ COMMON_LUNCH_CHOICES += \
     pa_whyred-userdebug \
     pa_X00TD-userdebug \
     pa_X01BD-userdebug \
-    pa_RMX1851-userdebug
+    pa_RMX1851-userdebug \
+    pa_twolip-userdebug
